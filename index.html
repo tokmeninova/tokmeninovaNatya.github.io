@@ -3,66 +3,68 @@
 <head>
     <meta charset = "UTF-8" />
     <title>Lenni Art</title>
+    <link rel=" stylesheet" href="styles/styles.css">
 </head>
-<body>
-    <header>
+<body class "body">
+    <header class = "page-header_nav">
             <img src="images/logo.jpg" alt="Логотип LEPI ART" width="120" />
-            <nav>
-                <a href ="#events">Мероприятия</a>
-                <a href ="#blog">Блог</a>
-                <a href ="#about">О нас</a>
-                <a href ="#contacts">Контакты</a>
+            <nav class = "page-header">
+                <a class = "page-header-link" href ="#events">Мероприятия</a>
+                <a class = "page-header-link" href ="#blog">Блог</a>
+                <a class = "page-header-link" href ="#about">О нас</a>
+                <a class = "page-header-link" href ="#contacts">Контакты</a>
             </nav>
-            <a href = "Login"> Войти </a>
+            <a class= "page-header_user-link" href = "Login"> Войти </a>
  
     </header>
-    <main>
-        <div>
 
-            <header> 
+    <main class"main">
+         <div class = "home"> 
+            <header class=" main_header"> 
                 <h1>АРТ-ПРОСТРАНСТВО </h1>
                 <img src="images/LENNI.jpg" alt="LENNI" width="120" />
                 <p> Для людей, горящих сердцем и делом место для настоящего</p>
             </header>
 
-            <section>
-                <h2>Я хочу</h2>
-                <div> 
-                    <a href = "events">Провести мероприятие </a>
-                    <a href = "rent">Стать арендатором </a>
+                <section class="offers home_offers"> 
+                <h2 class =" offers_title">Я хочу</h2>
+                <div class = "offers_btns">
+                    <a class = "offers_btn btn btn--red" href = "events">Провести мероприятие </a>
+                    <a class = "offers_btn btn"href = "rent">Стать арендатором </a>
                 </div>
-            </section>
-
-            <section id="about">
-                <h2>О нас</h2>
-                <div>
+                </section>
+  
+            <section id="about" class="about home_about">
+                <h2 class="about_section-title section-title">О нас</h2>
+                <div class="about_container">
                     <h3>Проект «Millennials»</h3>
                     <img src="images/pic.jpg" alt="Pic project" width="120" />
                 </div>
             </section>
 
-            <section id="events">
-                <h2>Мероприятия</h2>
-                <div></div>
+            <section id="events" class="upcoming home_upcoming">
+                <h2 class="upcoming_section-title">Мероприятия</h2>
+                <div class="upcoming_container"></div>
             </section>
 
-            <section id="blog">
-                <h2>Блог</h2>
-                <div></div>
-            </section>
-
-            <section id="contacts">
-                <h2>Контакты</h2>
-                <div>
-                    <p> Адреса и контактная информация </p>
+            <section id="blog" class="listing home_listing">
+                <div class="blog_container"> 
+                    <h2 class="listing_section-title section_title">Блог</h2>
                 </div>
             </section>
 
+            <section id="contacts" class="contacts home_contacts">
+                <div class="contacts_container"> 
+                    <h2 class="contacts_section-title section_title">Контакты</h2>
+                    <p> Адреса и контактная информация </p>
+                </div>
         </div>
+            </section>
     </main>
-    <footer>
+    <footer class = "page-footer">
         <p> Политика конфиденциальности</p>
         <p> Cookies</p>
+
     </footer>
 </body>
 </html>
